@@ -1,0 +1,88 @@
+.logoGlassWrap {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  display: inline-block;
+}
+
+.frostedLogo {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  /* Mask the glass just to the logo's shape */
+  mask-image: url('/vgs.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url('/vgs.svg');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  background: 
+    linear-gradient(135deg, rgba(255,255,255,0.38) 0%, rgba(180,210,255,0.10) 70%, rgba(255,255,255,0.29) 100%),
+    rgba(255,255,255,0.22);
+  backdrop-filter: blur(18px) saturate(1.7);
+  -webkit-backdrop-filter: blur(18px) saturate(1.7);
+  opacity: 0.96;
+  pointer-events: none;
+}
+
+/* Outer bright edge highlight for "raised liquid glass" effect */
+.edgeHighlight {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  mask-image: url('/vgs.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url('/vgs.svg');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  background:
+    radial-gradient(circle at 60% 20%, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.05) 55%, transparent 90%),
+    conic-gradient(from 210deg at 50% 50%, rgba(255,255,255,0.32) 5%, rgba(255,255,255,0.01) 55%, transparent 80%, rgba(255,255,255,0.25) 100%);
+  filter: blur(2.5px);
+  mix-blend-mode: lighten;
+  opacity: 0.92;
+  pointer-events: none;
+}
+
+/* Inner shadow for depth */
+.innerShadow {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  mask-image: url('/vgs.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url('/vgs.svg');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  background:
+    radial-gradient(circle at 50% 60%, #0743e630 80%, transparent 100%);
+  filter: blur(3.5px);
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+  pointer-events: none;
+}
+
+/* Drop shadow for floating/raised feel */
+.dropShadow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  mask-image: url('/vgs.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url('/vgs.svg');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  filter: drop-shadow(0 7px 24px rgba(4, 113, 255, 0.753));
+  pointer-events: none;
+}

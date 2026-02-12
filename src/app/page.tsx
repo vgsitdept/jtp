@@ -4,10 +4,11 @@ import LiquidGlassLogo from './components/LiquidGlassLogo';
 import TextType from './components/TextType';
 
 const demoItems = [
-  { link: 'https://www.instagram.com/vgsguc/', text: 'INSTAGRAM', image: '' },
+  { link: 'https://chat.whatsapp.com/KZJJrfOwxDYJ5IIxXD1mew?mode=gi_t', text: 'WHATSAPP', image: '' },
+  { link: 'https://chat.whatsapp.com/KZJJrfOwxDYJ5IIxXD1mew?mode=gi_t', text: 'Instagram', image: '' },
+  { link: 'https://drive.google.com/file/d/1JivKlG-4OwIpdAOSSs5jXSbJHGe0NrvT/view?usp=sharing', text: 'More Info', image: '' }
   // { link: 'https://forms.gle/k9F3rM5a7f2mpqA46', text: 'OW Form', image: '' },
   // { link: 'https://forms.gle/EyQMnzRuohAc5TAMA', text: 'CW FOrm', image: '' },
-  { link: '#', text: 'COMING SOON', image: '' }
 ];
 
 export default function Home() {
@@ -37,11 +38,11 @@ export default function Home() {
         <LiquidGlassLogo />
       </div>
       <TextType
-        text={["Applications Closed\n"]}
+        text={["Junior's Training Programme\n"]}
         typingSpeed={75}
         pauseDuration={1500}
         showCursor={true}
-        cursorCharacter="|VGS|"
+        cursorCharacter="|VGS x GDG|"
         style={{
           fontFamily: 'Rubik Mono One, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
           fontSize: 26,

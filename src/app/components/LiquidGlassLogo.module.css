@@ -10,11 +10,11 @@
   inset: 0;
   z-index: 1;
   /* Mask the glass just to the logo's shape */
-  mask-image: url('/vgs.svg');
+  mask-image: url('/2.svg');
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
-  -webkit-mask-image: url('/vgs.svg');
+  -webkit-mask-image: url('/2.svg');
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -32,11 +32,11 @@
   position: absolute;
   inset: 0;
   z-index: 2;
-  mask-image: url('/vgs.svg');
+  mask-image: url('/2.svg');
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
-  -webkit-mask-image: url('/vgs.svg');
+  -webkit-mask-image: url('/2.svg');
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -54,11 +54,11 @@
   position: absolute;
   inset: 0;
   z-index: 3;
-  mask-image: url('/vgs.svg');
+  mask-image: url('/2.svg');
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
-  -webkit-mask-image: url('/vgs.svg');
+  -webkit-mask-image: url('/2.svg');
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -75,11 +75,11 @@
   position: absolute;
   inset: 0;
   z-index: 0;
-  mask-image: url('/vgs.svg');
+  mask-image: url('/2.svg');
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
-  -webkit-mask-image: url('/vgs.svg');
+  -webkit-mask-image: url('/2.svg');
   -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;

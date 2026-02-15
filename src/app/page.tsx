@@ -6,7 +6,7 @@ import TextType from './components/TextType';
 const demoItems = [
   { link: 'https://chat.whatsapp.com/KZJJrfOwxDYJ5IIxXD1mew?mode=gi_t', text: 'WHATSAPP', image: '' },
   { link: 'https://www.instagram.com/vgsxgdg', text: 'Instagram', image: '' },
-  { link: 'https://drive.google.com/file/d/1gvyc0lKTp9AdBd9EhNsy68kayqTs3GKf/view?usp=sharing', text: 'More Info', image: '' }
+  { link: 'https://drive.google.com/file/d/1-UGMXhxy_5UzeZMxygBcBp6DTerzTg-M/view?usp=sharing', text: 'More Info', image: '' }
   // { link: 'https://forms.gle/k9F3rM5a7f2mpqA46', text: 'OW Form', image: '' },
   // { link: 'https://forms.gle/EyQMnzRuohAc5TAMA', text: 'CW FOrm', image: '' },
 ];
